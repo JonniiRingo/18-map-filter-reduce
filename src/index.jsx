@@ -1,6 +1,16 @@
+import React from "react"; 
+import ReactDOM from "react-dom/.client"; 
 import emojipedia from "./emojipedia"; 
 
 var numbers = [3, 56, 2, 48, 5];
+
+
+const root = ReactDOM.createRoot(document.getElementByID("root"));
+
+root.render(<App />); 
+
+
+
 
 //Map -Create a new array by doing something with each item in an array.
 
