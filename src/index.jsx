@@ -1,6 +1,6 @@
 import React from "react"; 
 import ReactDOM from "react-dom/.client"; 
-import emojipedia from "./emojipedia"; 
+import App from "../App"; 
 
 var numbers = [3, 56, 2, 48, 5];
 
