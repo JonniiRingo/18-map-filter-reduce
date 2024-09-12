@@ -4,10 +4,16 @@ import emojipedia from "../emojipedia";
 
 
 function findEmoji(){
-    return emojipedia.find((element) => element > 3); 
+    return (<p> {emojipedia.find((element) => element > 3)}</p>); 
 }
 
 export default findEmoji; 
+
+
+
+
+
+
 
 
 

@@ -8,7 +8,7 @@ import emojipedia from "../emojipedia";
 
 function reduceEmoji(){
     return (<div>
-        {emojipedia.reduce}
+        <p>{emojipedia.reduce}</p>
     </div>);
 }
 
