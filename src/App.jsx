@@ -1,8 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import emojipedia from "../emojipedia"; 
-import reduce from "./reduce"; 
-import mapped_emojies from "./map"; 
+import mapped_emojies from "../components/map"; 
 
 
 
@@ -18,3 +15,9 @@ function App(){
         </div>
     )
 }
+
+
+// src/
+// ├── App.jsx
+// ├── index.jsx
+// └── ...

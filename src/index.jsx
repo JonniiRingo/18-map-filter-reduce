@@ -1,6 +1,6 @@
 import React from "react"; 
-import ReactDOM from "react-dom/.client"; 
-import App from "../App"; 
+import ReactDOM from "react-dom/client"; 
+import App from "./App"; 
 
 var numbers = [3, 56, 2, 48, 5];
 

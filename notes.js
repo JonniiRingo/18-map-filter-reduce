@@ -2,7 +2,6 @@ var numbers = [3, 56, 2, 48, 5];
 
 
 // Map create a new array by doing something with each item
-
 function double(x){
     return x * 2;
 }
@@ -14,7 +13,6 @@ console.log(newNumbers);
 
 
 // Filter - Creates a new array by keeping the items that only returns true
-
 const newNumbers1 = numbers.filter(function (num){
     return num < 10; 
 });
@@ -34,7 +32,6 @@ console.log(newNumber2);
 
 
 // Find - returns the first item that satisfies a condition
-
 const newNumber3 = numbers.find(function (num) {
     return num > 10;
 })
